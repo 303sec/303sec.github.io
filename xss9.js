@@ -11,8 +11,6 @@ fetch("http://blog.9f626c1e-d05.ctf.one.dr.punksecurity.cloud:5000/admin", {
     "referrerPolicy": "strict-origin-when-cross-origin",
     "body": null,
     "method": "GET",
-    "mode": "cors",
-    "credentials": "omit",
     "redirect": "follow" // follow redirects
 }).then(response => {
     if (response.ok) {
